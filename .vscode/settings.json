@@ -1,0 +1,49 @@
+{
+    "python.defaultInterpreterPath": "../",
+    "python.testing.pytestArgs": [
+        "tests"
+    ],
+    // Configuraciones del Editor
+    "editor.fontSize": 14,
+    "editor.fontFamily": "Consolas, 'Courier New', monospace",
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.trimAutoWhitespace": true,
+    "editor.autoClosingBrackets": "always",
+    "editor.formatOnSave": true,
+    // Control de Versiones
+    "git.enableSmartCommit": true,
+    "git.autofetch": true,
+    // Temas y Extensiones
+    "workbench.colorTheme": "One Dark Pro",
+    "workbench.iconTheme": "material-icon-theme",
+    "extensions.ignoreRecommendations": false,
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "files.exclude": {
+        ".vscode": false,
+        ".fastpinecone": true,
+        ".python-version": true,
+        "LICENSE": true,
+        "**/.github": true,
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/.pytest_cache": true,
+        "**/__pycache__": true,
+        "**/.gitignore": true
+    },
+    "editor.minimap.enabled": false,
+    "terminal.integrated.env.windows": {
+        "PYTHONPATH": "${workspaceFolder}/bin"
+    },
+    "python.envFile": "${workspaceFolder}/.env",
+    "[python]": {
+        "editor.tabSize": 4,
+        "editor.insertSpaces": true,
+        "editor.formatOnSave": true
+    },
+}
